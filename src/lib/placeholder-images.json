@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "knoxguard",
+      "description": "KnoxGuard project",
+      "imageUrl": "https://images.unsplash.com/photo-1698328591458-5340c7c86e55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzZWN1cml0eSUyMGxvY2t8ZW58MHx8fHwxNzYxMzU4NTI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "security lock"
+    },
+    {
+      "id": "valotant",
+      "description": "Valotant project",
+      "imageUrl": "https://images.unsplash.com/photo-1603565913235-382c62d3b2ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnYW1lJTIwY29udHJvbGxlcnxlbnwwfHx8fDE3NjE0NDQ0MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "game controller"
+    },
+    {
+      "id": "bioconverge",
+      "description": "BioConverge project",
+      "imageUrl": "https://images.unsplash.com/photo-1738944910373-811b7b417762?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkbmElMjBzY2llbmNlfGVufDB8fHx8MTc2MTQ1MTQ5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dna science"
+    },
+    {
+      "id": "surkshit-web",
+      "description": "Surkshit Web project",
+      "imageUrl": "https://images.unsplash.com/photo-1655196601100-8bfb26cf99e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWIlMjBicm93c2VyfGVufDB8fHx8MTc2MTQ1MTQ5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "web browser"
+    },
+    {
+      "id": "the-librarian-game",
+      "description": "The Librarian Game project",
+      "imageUrl": "https://images.unsplash.com/photo-1536985576470-b7e4a0363a19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxib29rcyUyMGxpYnJhcnl8ZW58MHx8fHwxNzYxNDM1Nzg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "books library"
+    },
+    {
+      "id": "chrome-new-tab",
+      "description": "Chrome New Tab project",
+      "imageUrl": "https://images.unsplash.com/photo-1665470909928-a832ebc923d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxicm93c2VyJTIwdGFic3xlbnwwfHx8fDE3NjE0NTE0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "browser tabs"
+    },
+    {
+      "id": "ghost-in-the-pic",
+      "description": "Ghost in the Pic project",
+      "imageUrl": "https://images.unsplash.com/photo-1635442061157-d5fdcc4f3a9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnaG9zdCUyMHBob3RvfGVufDB8fHx8MTc2MTQ1MTQ5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ghost photo"
+    }
+  ]
+}
