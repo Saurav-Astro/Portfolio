@@ -157,7 +157,7 @@ export default function ContactSection() {
                 <button type="submit" disabled={status === 'sending'} className="font-code text-lg bg-green-500/80 text-black border-none py-2 px-6 cursor-pointer transition-all duration-200 w-full text-left hover:enabled:bg-white disabled:bg-gray-600 disabled:cursor-not-allowed">
                     {status === 'sending' ? 'Sending...' : '[ > Execute ]'}
                 </button>
-                {status === 'error' && <p className="text-red-500 mt-4">> Error: Transmission failed. Please try again.</p>}
+                {status === 'error' && <p className="text-red-500 mt-4">&gt; Error: Transmission failed. Please try again.</p>}
             </motion.form>
         );
     }
