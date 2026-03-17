@@ -1,8 +1,6 @@
-
-"use client";
+﻿"use client";
 
 import { useState, useEffect, useRef } from 'react';
-import emailjs from '@emailjs/browser';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import Link from 'next/link';
@@ -38,13 +36,15 @@ export default function ContactSection() {
         setFormState(prevState => ({ ...prevState, [name]: value }));
     };
 
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         if (status === 'sending') return;
 
         setStatus('sending');
 
         if (form.current) {
+            // Dynamically import emailjs only on the client side, on demand
+            const emailjs = (await import('@emailjs/browser')).default;
             emailjs.sendForm(
                 'service_t7wry6a',      // Service ID
                 'template_8f40c5k',     // Template ID
@@ -80,7 +80,7 @@ export default function ContactSection() {
 
             return () => clearInterval(interval); // Cleanup on component unmount
         }
-    }, [status, scriptOutput]);
+    }, [status]);
 
     const renderContent = () => {
         if (status === 'success') {

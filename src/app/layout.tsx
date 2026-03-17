@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "next-themes";
@@ -23,7 +23,7 @@ const firaCode = Fira_Code({
 
 export const metadata: Metadata = {
   title: "Saurav Kumar | Portfolio",
-  description: "The personal portfolio of Saurav Kumar, a full stack developer.",
+  description: "The personal portfolio of Saurav Kumar, a developer and cybersecurity practitioner.",
 };
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+    <html lang="en" className="scroll-smooth dark" suppressHydrationWarning>
       <body className={cn(
         "font-sans antialiased",
         inter.variable,
@@ -42,7 +42,7 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
-          enableSystem
+          enableSystem={false}
           disableTransitionOnChange
         >
           {children}

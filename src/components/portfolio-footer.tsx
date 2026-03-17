@@ -23,15 +23,15 @@ const socialLinks = [
 export default function PortfolioFooter() {
   return (
     <footer className="w-full border-t border-white/10 py-4 px-4 md:px-6">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <div className="h-16 w-full md:w-auto flex items-center justify-center">
+      <div className="container mx-auto flex max-w-[1400px] flex-col items-center justify-between gap-4 md:flex-row">
+        <div className="h-12 w-full overflow-hidden md:h-14 md:w-[340px] md:flex-none">
             <GooeyText
                 texts={["Saurav Kumar", "Full Stack Developer", "Creator", "Innovator"]}
-                className="font-bold w-full"
+                className="font-bold"
                 textClassName="text-lg md:text-xl"
             />
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 md:justify-end">
           {socialLinks.map((link) => (
             <Link
               key={link.label}

@@ -1,6 +1,5 @@
-"use client";
+﻿"use client";
 
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { AnimatedTiles } from "@/components/ui/animated-tiles";
 import AboutSection from "./portfolio-about";
@@ -36,23 +35,20 @@ export default function HomeSection() {
                   Saurav Kumar
                 </h1>
                 <p className="text-lg text-muted-foreground md:text-xl">
-                  Front-End Developer | Cybersecurity Enthusiast
+                  Developer &amp; Cybersecurity Practitioner | CTF Architect | AI &amp; Web Engineer
                 </p>
                 <p className="max-w-[600px] text-base text-muted-foreground md:text-lg">
-                  I build secure, user-friendly web applications with a passion
-                  for clean code and intuitive design. Specializing in
-                  JavaScript and React, I bring a security-first mindset to
-                  front-end development.
+                  I build secure, intelligent web applications and lead hands-on security initiatives. From OWASP-aligned scanners and AI accessibility platforms to CTF competitions engaging 700+ participants — I operate at the intersection of security and modern software engineering.
                 </p>
               </div>
               <div className="flex flex-wrap gap-4 lg:justify-start justify-center">
-                <a href="/documents/resume.pdf" download>
+                <a href="/documents/resume_saurav_kumar.pdf" download>
                   <MagnetizeButton>
                     <Download className="mr-2 h-4 w-4" />
                     Download Resume
                   </MagnetizeButton>
                 </a>
-                <a href="/documents/cv.docx" download>
+                <a href="/documents/cv.pdf" download>
                   <MagnetizeButton>
                     <Download className="mr-2 h-4 w-4" />
                     Download CV

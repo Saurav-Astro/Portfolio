@@ -114,8 +114,8 @@ export default function RadialOrbitalTimeline({
   const calculateNodePosition = (index: number, total: number, width: number) => {
     const angle = ((index / total) * 360 + rotationAngle) % 360;
     const isMobile = width < 768;
-    const radiusSmall = isMobile ? 100 : 150;
-    const radiusLarge = isMobile ? 150 : 220;
+    const radiusSmall = isMobile ? 96 : 132;
+    const radiusLarge = isMobile ? 144 : 188;
     
     const radius = index % 2 === 0 ? radiusSmall : radiusLarge;
     const radian = (angle * Math.PI) / 180;
@@ -196,8 +196,8 @@ export default function RadialOrbitalTimeline({
             <div className="w-8 h-8 rounded-full bg-white/80 backdrop-blur-md"></div>
           </div>
 
-          <div className="absolute w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full border border-white/10 opacity-50"></div>
-          <div className="absolute w-[300px] h-[300px] md:w-[440px] md:h-[440px] rounded-full border border-white/10"></div>
+          <div className="absolute w-[190px] h-[190px] md:w-[264px] md:h-[264px] rounded-full border border-white/10 opacity-50"></div>
+          <div className="absolute w-[280px] h-[280px] md:w-[380px] md:h-[380px] rounded-full border border-white/10"></div>
           
 
           {timelineData.map((item, index) => {
