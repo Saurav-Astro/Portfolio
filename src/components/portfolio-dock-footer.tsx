@@ -7,7 +7,7 @@ const contactLinks = [
   {
     title: 'GitHub',
     icon: <Github className='h-full w-full text-foreground/80' />,
-    href: 'https://github.com/Saurav-Astro',
+    href: 'https://github.com/Astro-Saurav',
   },
   {
     title: 'LinkedIn',
