@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -182,7 +182,7 @@ export default function ContactSection() {
                     </AnimatePresence>
                 </div>
                  <div className="flex items-center justify-center gap-6 pt-8">
-                    <Link href="https://github.com/Saurav-Astro" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <Link href="https://github.com/Astro-Saurav" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <Github className="h-6 w-6 text-muted-foreground transition-colors hover:text-foreground" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/saurav-kumar-astro/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">

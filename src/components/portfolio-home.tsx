@@ -1,10 +1,11 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { AnimatedTiles } from "@/components/ui/animated-tiles";
 import AboutSection from "./portfolio-about";
 import { Download } from "lucide-react";
 import { MagnetizeButton } from "@/components/ui/magnetize-button";
+import { Button } from "@/components/ui/button";
 
 export default function HomeSection() {
   return (
@@ -35,25 +36,26 @@ export default function HomeSection() {
                   Saurav Kumar
                 </h1>
                 <p className="text-lg text-muted-foreground md:text-xl">
-                  Developer &amp; Cybersecurity Practitioner | CTF Architect | AI &amp; Web Engineer
+                  Cybersecurity Analyst | Application Security | Full-Stack Developer
                 </p>
                 <p className="max-w-[600px] text-base text-muted-foreground md:text-lg">
-                  I build secure, intelligent web applications and lead hands-on security initiatives. From OWASP-aligned scanners and AI accessibility platforms to CTF competitions engaging 700+ participants — I operate at the intersection of security and modern software engineering.
+                  Cybersecurity-focused Full-Stack Developer with hands-on experience in application security, secure software development, vulnerability assessment and penetration testing (VAPT), and AI-powered engineering. Track record of leading security initiatives for 700+ participants, shipping production full-stack applications, and publishing peer-reviewed security research in IEEE Xplore.
                 </p>
               </div>
-              <div className="flex flex-wrap gap-4 lg:justify-start justify-center">
-                <a href="/documents/resume_saurav_kumar.pdf" download>
-                  <MagnetizeButton>
-                    <Download className="mr-2 h-4 w-4" />
-                    Download Resume
-                  </MagnetizeButton>
-                </a>
-                <a href="/documents/cv.pdf" download>
-                  <MagnetizeButton>
-                    <Download className="mr-2 h-4 w-4" />
-                    Download CV
-                  </MagnetizeButton>
-                </a>
+              <div className="flex flex-col gap-2 lg:justify-start justify-center">
+                <div className="flex flex-wrap gap-4">
+                  <a href="/documents/resume_saurav_kumar.pdf" download aria-label="Download Resume">
+                    <MagnetizeButton>
+                      <Download className="mr-2 h-4 w-4" aria-hidden="true" />
+                      Download Resume
+                    </MagnetizeButton>
+                  </a>
+                  <a href="mailto:0501saurav@gmail.com" aria-label="Contact via Email">
+                    <Button variant="outline" className="h-full border-white/10 hover:bg-white/5">
+                      Contact Me
+                    </Button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
